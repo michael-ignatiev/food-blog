@@ -8,15 +8,15 @@
 
 Pet project which represents blog platform on food thematic.
 
-Web application based on Laravel (back-end), React (front-end part). Backend implemented as an API which obtains requests from the frontend part. Requests which require authorization use OAuth protocol which implemented in Laravel via Passport. Application has authorization module. So user has ability to perform the following actions:
+Web application based on Laravel (back-end) and React (front-end part). Backend implemented as an API which obtains requests from the frontend part. Requests which require authorization use OAuth protocol implemented in Laravel via Passport. User has ability to perform the following actions:
 * register
 * login
 * edit profile info
-* create posts
+* create/edit/publish/unpublish posts
 * view his posts as well as all published posts on site
 
-In addition user with admin access has ability to moderate posts of regular users.
-
+User with admin access has ability to moderate posts of regular users.
+Front-end part of the application is divided into modules for better extensibility.
 Project covered with Unit tests.
 
 ## Getting Started
@@ -54,8 +54,8 @@ One time compiling `npm run dev` or runtime compiling `npm run watch`
 
 ## Built With
 
-* [Laravel](https://laravel.com/) - The PHP Framework (v. 5.6)
-* [React](https://reactjs.org/) - JavaScript library (v. 16.3)
+* [Laravel](https://laravel.com/) - The PHP Framework
+* [React](https://reactjs.org/) - JavaScript library
 
 ## License
 
