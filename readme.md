@@ -54,8 +54,8 @@ One time compiling `npm run dev` or runtime compiling `npm run watch`
 
 ## Built With
 
-* [Laravel](https://laravel.com/) - The PHP Framework
-* [React](https://reactjs.org/) - JavaScript library
+* [Laravel](https://laravel.com/) - The PHP Framework (v. 5.6)
+* [React](https://reactjs.org/) - JavaScript library (v. 16.3)
 
 ## License
 
